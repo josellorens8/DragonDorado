@@ -38,6 +38,10 @@ body {
     display: none;
 }
 
+.hero img {
+    width: 100%;
+}
+
 @media (max-width: 768px) {
     .nav-items {
         position: absolute;
@@ -69,8 +73,4 @@ body {
         opacity: 1;
         transition: 0.8s all;
     }
-}
-
-.hero img {
-    width: 100%;
 }
