@@ -50,7 +50,7 @@ body {
         text-align: center;
         justify-content: center;
         opacity: 0;
-        transition: 0.4s all;
+        transition: 0.8s all;
     }
     .nav-toggle {
         display: flex !important;
@@ -69,4 +69,8 @@ body {
         opacity: 1;
         transition: 0.8s all;
     }
+}
+
+.hero img {
+    width: 100%;
 }
