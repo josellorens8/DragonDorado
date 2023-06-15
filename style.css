@@ -53,7 +53,7 @@ body {
         height: auto;
         text-align: center;
         justify-content: center;
-        opacity: 0;
+        transform: translateX(-100%);
         transition: 0.8s all;
     }
     .nav-toggle {
@@ -70,7 +70,7 @@ body {
     }
 
     .open {
-        opacity: 1;
+        transform: translateX(0%);
         transition: 0.8s all;
     }
 }
