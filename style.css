@@ -12,7 +12,8 @@
 }
 
 body {
-    min-height: 100vh;
+    width: 100%;
+    height: auto;
     background: var(--color-2);
     overflow-x: hidden;
     font-family: 'Teko', sans-serif;
@@ -52,7 +53,7 @@ body {
 
 .hero-container {
     width: 100%;
-    min-height: 100vh;
+    height: auto;
     align-content: center;
     align-items: center;
     display: grid;
@@ -100,6 +101,7 @@ body {
 footer {
     background: var(--color-3);
     width: 100%;
+    height: auto;
 }
 .footer-conteiner{
     display: grid;
