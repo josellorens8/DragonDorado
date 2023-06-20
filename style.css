@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
     height: auto;
@@ -167,6 +171,7 @@ section .productos::before{
     object-fit: cover;
     border-radius: 50%;
 }
+
 .contacto-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
